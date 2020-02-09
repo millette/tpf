@@ -1,16 +1,18 @@
 {
   "name": "tpf",
   "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "posttest": "npm run format",
+    "format": "prettier --loglevel warn --write \"**/*.{html,js,css,md,mdx}\""
   },
-  "keywords": [],
   "author": "Robin Millette <robin@millette.info> (http://robin.millette.info/)",
   "license": "AGPL-3.0",
   "dependencies": {
     "next": "^9.2.1",
     "theme-ui": "^0.3.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
   }
 }
