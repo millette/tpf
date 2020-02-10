@@ -1,6 +1,6 @@
 // npm
 import { merge } from "theme-ui"
-import theme1 from "@theme-ui/preset-polaris"
+import { polaris as theme1 } from "@theme-ui/presets"
 
 const theme = merge(theme1, {
   useColorSchemeMediaQuery: true,
@@ -11,7 +11,7 @@ const theme = merge(theme1, {
       color: "white",
       bg: "primary",
       "&:hover": {
-        bg: "dark",
+        bg: "highlight",
       },
     },
     secondary: {
@@ -20,7 +20,7 @@ const theme = merge(theme1, {
       color: "white",
       bg: "secondary",
       "&:hover": {
-        bg: "dark",
+        bg: "highlight",
       },
     },
   },
