@@ -25,7 +25,7 @@ const mdComponents = {
 
 const theme = {
   ...theme1,
-  useColorSchemeMediaQuery: true,
+  // useColorSchemeMediaQuery: true,
   buttons: {
     secondary: {
       cursor: "pointer",
