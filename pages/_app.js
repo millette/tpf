@@ -1,9 +1,11 @@
 // npm
-import { Styled, Button, ThemeProvider, InitializeColorMode } from "theme-ui"
+import { Styled, Button, ThemeProvider } from "theme-ui"
+// import { ColorMode } from "@theme-ui/color-modes"
 import Link from "next/link"
 
 // self
 import theme from "../theme.js"
+import Cols from "../components/cols.js"
 
 const mdComponents = {
   Button,
@@ -19,11 +21,10 @@ const mdComponents = {
     ),
 }
 
-// <InitializeColorMode />
-
 export default ({ Component, pageProps }) => {
   return (
     <ThemeProvider components={mdComponents} theme={theme}>
+      <Cols />
       <Component {...pageProps} />
     </ThemeProvider>
   )
