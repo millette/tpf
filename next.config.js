@@ -8,6 +8,7 @@ const withMDX = require("@next/mdx")({
 
 module.exports = withOptimizedImages(
   withMDX({
+    optimizeImages: false,
     responsive: {
       sizes: [600, 1000, 2000],
     },
