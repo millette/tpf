@@ -1,6 +1,6 @@
-import xyz from "../public/imgs/patineur.jpg?size=300"
+import xyz from "../imgs/patineur.jpg?sizes[]=300&sizes[]=600&sizes[]=1000"
 
-# MDX + Next.js
+# Patineur
 
 Look, a button! 👇
 
@@ -8,4 +8,4 @@ Look, a button! 👇
 
 > Thus spoke [Home](.)
 
-<img src={xyz.src} />
+<img srcSet={xyz.srcSet} src={xyz.src} alt="Patineur" />
