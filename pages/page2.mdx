@@ -1,4 +1,4 @@
-import xyz from "../imgs/patineur.jpg?resize"
+import responsiveImage from "../imgs/patineur.jpg?resize"
 
 # Patineur
 
@@ -8,4 +8,17 @@ Look, a button! 👇
 
 > Thus spoke [Home](.)
 
-<img srcSet={xyz.srcSet} src={xyz.src} alt="Patineur" />
+<div
+  style={{
+    height: responsiveImage.height,
+    width: responsiveImage.width,
+    backgroundSize: "cover",
+    backgroundImage: 'url("' + responsiveImage.placeholder + '")'
+  }}
+>
+  <img
+    src={responsiveImage.src}
+    srcSet={responsiveImage.srcSet}
+    alt="Patineur"
+  />
+</div>
