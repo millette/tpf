@@ -10,7 +10,6 @@ module.exports = withOptimizedImages(
   withMDX({
     responsive: {
       sizes: [600, 1000, 2000],
-      placeholder: true,
     },
     pageExtensions: ["js", "mdx"],
   })
