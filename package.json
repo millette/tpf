@@ -10,7 +10,7 @@
     "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "posttest": "npm run format",
-    "format": "prettier --loglevel warn --write \"**/*.{html,js,css,md,mdx}\""
+    "format": "prettier --loglevel warn --write \"**/*.{html,js,json,css,md,mdx}\""
   },
   "author": "Robin Millette <robin@millette.info> (http://robin.millette.info/)",
   "license": "AGPL-3.0",
@@ -39,6 +39,6 @@
     }
   },
   "lint-staged": {
-    "*.{html,js,css,md,mdx}": "prettier --write"
+    "*.{html,js,json,css,md,mdx}": "prettier --write"
   }
 }
