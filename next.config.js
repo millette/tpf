@@ -8,9 +8,14 @@ const withMDX = require("@next/mdx")({
   extension: /\.mdx?$/,
 })
 
+const assetPrefix = prod ? "/tpf/" : ""
+
 module.exports = withOptimizedImages(
   withMDX({
-    assetPrefix: prod ? "/tpf/" : "",
+    env: {
+      BACKEND_URL: assetPrefix.slice(0, -1),
+    },
+    assetPrefix,
     optimizeImages: false,
     responsive: {
       sizes: [600, 1000, 1600],
