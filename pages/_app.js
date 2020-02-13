@@ -1,6 +1,5 @@
 // npm
 import { Styled, Button, ThemeProvider } from "theme-ui"
-// import { ColorMode } from "@theme-ui/color-modes"
 import Link from "next/link"
 
 // self
@@ -11,7 +10,7 @@ const mdComponents = {
   Button,
   a: ({ href, children }) =>
     href.indexOf("://") === -1 ? (
-      <Link href={href} passHref>
+      <Link href={href} as={process.env.BACKEND_URL + href} passHref>
         <Styled.a>{children}</Styled.a>
       </Link>
     ) : (

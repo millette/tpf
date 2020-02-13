@@ -6,7 +6,7 @@ const Cols = () => {
   const [colorMode, setColorMode] = useColorMode()
   return (
     <>
-      <Link href="/">
+      <Link href="/" as={process.env.BACKEND_URL + "/"}>
         <a>Home</a>
       </Link>
       <Button
