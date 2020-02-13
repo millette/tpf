@@ -1,13 +1,13 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/patineur.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/peinture-gimp-3.js"],{
 
-/***/ "./imgs/patineur.jpg?resize":
-/*!**********************************!*\
-  !*** ./imgs/patineur.jpg?resize ***!
-  \**********************************/
+/***/ "./imgs/peinture_araignee-gimp1.jpg?resize":
+/*!*************************************************!*\
+  !*** ./imgs/peinture_araignee-gimp1.jpg?resize ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/_next/static/images/patineur-600-cbe9cc8ab4165836780fbaca4ee1d5ce.jpg"+" 600w"+","+"/_next/static/images/patineur-1000-24db00685cfe58f8444a601afee30fa1.jpg"+" 1000w"+","+"/_next/static/images/patineur-1129-538516832463086cff3a6a9014c77794.jpg"+" 1129w",images:[{path:"/_next/static/images/patineur-600-cbe9cc8ab4165836780fbaca4ee1d5ce.jpg",width:600,height:784},{path:"/_next/static/images/patineur-1000-24db00685cfe58f8444a601afee30fa1.jpg",width:1000,height:1306},{path:"/_next/static/images/patineur-1129-538516832463086cff3a6a9014c77794.jpg",width:1129,height:1475}],src:"/_next/static/images/patineur-600-cbe9cc8ab4165836780fbaca4ee1d5ce.jpg",toString:function(){return "/_next/static/images/patineur-600-cbe9cc8ab4165836780fbaca4ee1d5ce.jpg"},placeholder: undefined,width:600,height:784};
+module.exports = {srcSet:"/_next/static/images/peinture_araignee-gimp1-600-91b21c7aaf1ec65c84e9243870ed0ec0.jpg"+" 600w"+","+"/_next/static/images/peinture_araignee-gimp1-1000-9b57eee022d4c9eb6f88ca954972df32.jpg"+" 1000w"+","+"/_next/static/images/peinture_araignee-gimp1-1200-5009d16f01081364479dbcbb3967bbd5.jpg"+" 1200w",images:[{path:"/_next/static/images/peinture_araignee-gimp1-600-91b21c7aaf1ec65c84e9243870ed0ec0.jpg",width:600,height:511},{path:"/_next/static/images/peinture_araignee-gimp1-1000-9b57eee022d4c9eb6f88ca954972df32.jpg",width:1000,height:852},{path:"/_next/static/images/peinture_araignee-gimp1-1200-5009d16f01081364479dbcbb3967bbd5.jpg",width:1200,height:1022}],src:"/_next/static/images/peinture_araignee-gimp1-600-91b21c7aaf1ec65c84e9243870ed0ec0.jpg",toString:function(){return "/_next/static/images/peinture_araignee-gimp1-600-91b21c7aaf1ec65c84e9243870ed0ec0.jpg"},placeholder: undefined,width:600,height:511};
 
 /***/ }),
 
@@ -1787,21 +1787,21 @@ setToStringTag(global.JSON, 'JSON', true);
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpatineur&absolutePagePath=%2Fhome%2Fmillette%2Ftpf%2Fpages%2Fpatineur.mdx!./":
-/*!********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpatineur&absolutePagePath=%2Fhome%2Fmillette%2Ftpf%2Fpages%2Fpatineur.mdx ***!
-  \********************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpeinture-gimp-3&absolutePagePath=%2Fhome%2Fmillette%2Ftpf%2Fpages%2Fpeinture-gimp-3.mdx!./":
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpeinture-gimp-3&absolutePagePath=%2Fhome%2Fmillette%2Ftpf%2Fpages%2Fpeinture-gimp-3.mdx ***!
+  \**********************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/patineur", function() {
-      var mod = __webpack_require__(/*! ./pages/patineur.mdx */ "./pages/patineur.mdx")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/peinture-gimp-3", function() {
+      var mod = __webpack_require__(/*! ./pages/peinture-gimp-3.mdx */ "./pages/peinture-gimp-3.mdx")
       if(true) {
-        module.hot.accept(/*! ./pages/patineur.mdx */ "./pages/patineur.mdx", function() {
-          if(!next.router.components["/patineur"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/patineur.mdx */ "./pages/patineur.mdx")
-          next.router.update("/patineur", updatedPage)
+        module.hot.accept(/*! ./pages/peinture-gimp-3.mdx */ "./pages/peinture-gimp-3.mdx", function() {
+          if(!next.router.components["/peinture-gimp-3"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/peinture-gimp-3.mdx */ "./pages/peinture-gimp-3.mdx")
+          next.router.update("/peinture-gimp-3", updatedPage)
         })
       }
       return mod
@@ -1821,10 +1821,10 @@ module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f
 
 /***/ }),
 
-/***/ "./pages/patineur.mdx":
-/*!****************************!*\
-  !*** ./pages/patineur.mdx ***!
-  \****************************/
+/***/ "./pages/peinture-gimp-3.mdx":
+/*!***********************************!*\
+  !*** ./pages/peinture-gimp-3.mdx ***!
+  \***********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1836,11 +1836,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mdx-js/react */ "./node_modules/@mdx-js/react/dist/esm.js");
-/* harmony import */ var _imgs_patineur_jpg_resize__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../imgs/patineur.jpg?resize */ "./imgs/patineur.jpg?resize");
-/* harmony import */ var _imgs_patineur_jpg_resize__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_imgs_patineur_jpg_resize__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _imgs_peinture_araignee_gimp1_jpg_resize__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../imgs/peinture_araignee-gimp1.jpg?resize */ "./imgs/peinture_araignee-gimp1.jpg?resize");
+/* harmony import */ var _imgs_peinture_araignee_gimp1_jpg_resize__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_imgs_peinture_araignee_gimp1_jpg_resize__WEBPACK_IMPORTED_MODULE_4__);
 
 
-var _jsxFileName = "/home/millette/tpf/pages/patineur.mdx";
+var _jsxFileName = "/home/millette/tpf/pages/peinture-gimp-3.mdx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
@@ -1881,10 +1881,10 @@ function MDXContent(_ref) {
       lineNumber: 23
     },
     __self: this
-  }, "Le patineur"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("img", {
-    src: _imgs_patineur_jpg_resize__WEBPACK_IMPORTED_MODULE_4___default.a.src,
-    srcSet: _imgs_patineur_jpg_resize__WEBPACK_IMPORTED_MODULE_4___default.a.srcSet,
-    alt: "Le patineur",
+  }, "Retravail d'une peinture avec Gimp 3"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("img", {
+    src: _imgs_peinture_araignee_gimp1_jpg_resize__WEBPACK_IMPORTED_MODULE_4___default.a.src,
+    srcSet: _imgs_peinture_araignee_gimp1_jpg_resize__WEBPACK_IMPORTED_MODULE_4___default.a.srcSet,
+    alt: "Retravail d'une peinture avec Gimp 3",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
@@ -1903,7 +1903,7 @@ function MDXContent(_ref) {
       lineNumber: 25
     },
     __self: this
-  }, "Vendredi 1 octobre 2010")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+  }, "Jeudi 2 avril 2015")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
@@ -1912,7 +1912,7 @@ function MDXContent(_ref) {
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
     parentName: "p"
   }, {
-    "href": "https://iftbqp.com/image/le-patineur"
+    "href": "https://iftbqp.com/image/retravail-dune-peinture-avec-gimp-3"
   }, {
     __source: {
       fileName: _jsxFileName,
@@ -1932,48 +1932,21 @@ function MDXContent(_ref) {
       lineNumber: 29
     },
     __self: this
-  }, "License art libre")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("ul", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
-    parentName: "ul",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }, "Toile"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
-    parentName: "ul",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, "Art"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
-    parentName: "ul",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, "Acrylique")));
+  }, "License art libre")));
 }
 ;
 MDXContent.isMDXComponent = true;
 
 /***/ }),
 
-/***/ 2:
-/*!************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fpatineur&absolutePagePath=%2Fhome%2Fmillette%2Ftpf%2Fpages%2Fpatineur.mdx ***!
-  \************************************************************************************************************************/
+/***/ 7:
+/*!**************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fpeinture-gimp-3&absolutePagePath=%2Fhome%2Fmillette%2Ftpf%2Fpages%2Fpeinture-gimp-3.mdx ***!
+  \**************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fpatineur&absolutePagePath=%2Fhome%2Fmillette%2Ftpf%2Fpages%2Fpatineur.mdx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpatineur&absolutePagePath=%2Fhome%2Fmillette%2Ftpf%2Fpages%2Fpatineur.mdx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fpeinture-gimp-3&absolutePagePath=%2Fhome%2Fmillette%2Ftpf%2Fpages%2Fpeinture-gimp-3.mdx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpeinture-gimp-3&absolutePagePath=%2Fhome%2Fmillette%2Ftpf%2Fpages%2Fpeinture-gimp-3.mdx!./");
 
 
 /***/ }),
@@ -1989,5 +1962,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=patineur.js.map
+},[[7,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=peinture-gimp-3.js.map

@@ -1,13 +1,13 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/patineur.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/fela.js"],{
 
-/***/ "./imgs/patineur.jpg?resize":
-/*!**********************************!*\
-  !*** ./imgs/patineur.jpg?resize ***!
-  \**********************************/
+/***/ "./imgs/img_0435.jpg.jpg?resize":
+/*!**************************************!*\
+  !*** ./imgs/img_0435.jpg.jpg?resize ***!
+  \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = {srcSet:"/_next/static/images/patineur-600-cbe9cc8ab4165836780fbaca4ee1d5ce.jpg"+" 600w"+","+"/_next/static/images/patineur-1000-24db00685cfe58f8444a601afee30fa1.jpg"+" 1000w"+","+"/_next/static/images/patineur-1129-538516832463086cff3a6a9014c77794.jpg"+" 1129w",images:[{path:"/_next/static/images/patineur-600-cbe9cc8ab4165836780fbaca4ee1d5ce.jpg",width:600,height:784},{path:"/_next/static/images/patineur-1000-24db00685cfe58f8444a601afee30fa1.jpg",width:1000,height:1306},{path:"/_next/static/images/patineur-1129-538516832463086cff3a6a9014c77794.jpg",width:1129,height:1475}],src:"/_next/static/images/patineur-600-cbe9cc8ab4165836780fbaca4ee1d5ce.jpg",toString:function(){return "/_next/static/images/patineur-600-cbe9cc8ab4165836780fbaca4ee1d5ce.jpg"},placeholder: undefined,width:600,height:784};
+module.exports = {srcSet:"/_next/static/images/img_0435.jpg-600-8c07e3c3e7a377b00a416b6573da7b70.jpg"+" 600w"+","+"/_next/static/images/img_0435.jpg-1000-fd430759e811a799ccb7e32af56a1ac8.jpg"+" 1000w"+","+"/_next/static/images/img_0435.jpg-1600-16044f9c774402739f9bb27873731218.jpg"+" 1600w",images:[{path:"/_next/static/images/img_0435.jpg-600-8c07e3c3e7a377b00a416b6573da7b70.jpg",width:600,height:276},{path:"/_next/static/images/img_0435.jpg-1000-fd430759e811a799ccb7e32af56a1ac8.jpg",width:1000,height:460},{path:"/_next/static/images/img_0435.jpg-1600-16044f9c774402739f9bb27873731218.jpg",width:1600,height:736}],src:"/_next/static/images/img_0435.jpg-600-8c07e3c3e7a377b00a416b6573da7b70.jpg",toString:function(){return "/_next/static/images/img_0435.jpg-600-8c07e3c3e7a377b00a416b6573da7b70.jpg"},placeholder: undefined,width:600,height:276};
 
 /***/ }),
 
@@ -1787,21 +1787,21 @@ setToStringTag(global.JSON, 'JSON', true);
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpatineur&absolutePagePath=%2Fhome%2Fmillette%2Ftpf%2Fpages%2Fpatineur.mdx!./":
-/*!********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpatineur&absolutePagePath=%2Fhome%2Fmillette%2Ftpf%2Fpages%2Fpatineur.mdx ***!
-  \********************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ffela&absolutePagePath=%2Fhome%2Fmillette%2Ftpf%2Fpages%2Ffela.mdx!./":
+/*!************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ffela&absolutePagePath=%2Fhome%2Fmillette%2Ftpf%2Fpages%2Ffela.mdx ***!
+  \************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/patineur", function() {
-      var mod = __webpack_require__(/*! ./pages/patineur.mdx */ "./pages/patineur.mdx")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/fela", function() {
+      var mod = __webpack_require__(/*! ./pages/fela.mdx */ "./pages/fela.mdx")
       if(true) {
-        module.hot.accept(/*! ./pages/patineur.mdx */ "./pages/patineur.mdx", function() {
-          if(!next.router.components["/patineur"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/patineur.mdx */ "./pages/patineur.mdx")
-          next.router.update("/patineur", updatedPage)
+        module.hot.accept(/*! ./pages/fela.mdx */ "./pages/fela.mdx", function() {
+          if(!next.router.components["/fela"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/fela.mdx */ "./pages/fela.mdx")
+          next.router.update("/fela", updatedPage)
         })
       }
       return mod
@@ -1821,10 +1821,10 @@ module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f
 
 /***/ }),
 
-/***/ "./pages/patineur.mdx":
-/*!****************************!*\
-  !*** ./pages/patineur.mdx ***!
-  \****************************/
+/***/ "./pages/fela.mdx":
+/*!************************!*\
+  !*** ./pages/fela.mdx ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1836,11 +1836,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mdx-js/react */ "./node_modules/@mdx-js/react/dist/esm.js");
-/* harmony import */ var _imgs_patineur_jpg_resize__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../imgs/patineur.jpg?resize */ "./imgs/patineur.jpg?resize");
-/* harmony import */ var _imgs_patineur_jpg_resize__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_imgs_patineur_jpg_resize__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _imgs_img_0435_jpg_jpg_resize__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../imgs/img_0435.jpg.jpg?resize */ "./imgs/img_0435.jpg.jpg?resize");
+/* harmony import */ var _imgs_img_0435_jpg_jpg_resize__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_imgs_img_0435_jpg_jpg_resize__WEBPACK_IMPORTED_MODULE_4__);
 
 
-var _jsxFileName = "/home/millette/tpf/pages/patineur.mdx";
+var _jsxFileName = "/home/millette/tpf/pages/fela.mdx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
@@ -1881,10 +1881,10 @@ function MDXContent(_ref) {
       lineNumber: 23
     },
     __self: this
-  }, "Le patineur"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("img", {
-    src: _imgs_patineur_jpg_resize__WEBPACK_IMPORTED_MODULE_4___default.a.src,
-    srcSet: _imgs_patineur_jpg_resize__WEBPACK_IMPORTED_MODULE_4___default.a.srcSet,
-    alt: "Le patineur",
+  }, "Fela"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("img", {
+    src: _imgs_img_0435_jpg_jpg_resize__WEBPACK_IMPORTED_MODULE_4___default.a.src,
+    srcSet: _imgs_img_0435_jpg_jpg_resize__WEBPACK_IMPORTED_MODULE_4___default.a.srcSet,
+    alt: "Fela",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
@@ -1903,7 +1903,7 @@ function MDXContent(_ref) {
       lineNumber: 25
     },
     __self: this
-  }, "Vendredi 1 octobre 2010")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+  }, "Dimanche 6 ao\xFBt 2006")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
@@ -1912,7 +1912,7 @@ function MDXContent(_ref) {
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
     parentName: "p"
   }, {
-    "href": "https://iftbqp.com/image/le-patineur"
+    "href": "https://iftbqp.com/image/fela"
   }, {
     __source: {
       fileName: _jsxFileName,
@@ -1945,35 +1945,63 @@ function MDXContent(_ref) {
       lineNumber: 31
     },
     __self: this
-  }, "Toile"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
+  }, "Tissus"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
     parentName: "ul",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32
     },
     __self: this
-  }, "Art"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
+  }, "fela"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
     parentName: "ul",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33
     },
     __self: this
-  }, "Acrylique")));
+  }, "couleur"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
+    parentName: "ul",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, "copyleft"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
+    parentName: "ul",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, "color"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
+    parentName: "ul",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, "Collective"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
+    parentName: "ul",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, "Art")));
 }
 ;
 MDXContent.isMDXComponent = true;
 
 /***/ }),
 
-/***/ 2:
-/*!************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fpatineur&absolutePagePath=%2Fhome%2Fmillette%2Ftpf%2Fpages%2Fpatineur.mdx ***!
-  \************************************************************************************************************************/
+/***/ 5:
+/*!****************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Ffela&absolutePagePath=%2Fhome%2Fmillette%2Ftpf%2Fpages%2Ffela.mdx ***!
+  \****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fpatineur&absolutePagePath=%2Fhome%2Fmillette%2Ftpf%2Fpages%2Fpatineur.mdx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpatineur&absolutePagePath=%2Fhome%2Fmillette%2Ftpf%2Fpages%2Fpatineur.mdx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Ffela&absolutePagePath=%2Fhome%2Fmillette%2Ftpf%2Fpages%2Ffela.mdx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ffela&absolutePagePath=%2Fhome%2Fmillette%2Ftpf%2Fpages%2Ffela.mdx!./");
 
 
 /***/ }),
@@ -1989,5 +2017,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=patineur.js.map
+},[[5,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=fela.js.map
