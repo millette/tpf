@@ -2,6 +2,7 @@
   "name": "tpf",
   "version": "0.0.0",
   "scripts": {
+    "deploy": "gh-pages -t -d out",
     "clean": "rm -fr .next out",
     "dev": "next",
     "build": "next build",
