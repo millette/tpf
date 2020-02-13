@@ -1,5 +1,7 @@
 "use strict"
 
+const prod = process.env.NODE_ENV === "production"
+
 // npm
 const withOptimizedImages = require("next-optimized-images")
 const withMDX = require("@next/mdx")({
@@ -8,6 +10,7 @@ const withMDX = require("@next/mdx")({
 
 module.exports = withOptimizedImages(
   withMDX({
+    assetPrefix: prod ? "/tpf/" : "",
     optimizeImages: false,
     responsive: {
       sizes: [600, 1000, 1600],
