@@ -1,5 +1,7 @@
+/** @jsx jsx */
+
 // npm
-import { Flex, Box, Styled, Button, ThemeProvider } from "theme-ui"
+import { jsx, Flex, Box, Styled, Button, ThemeProvider } from "theme-ui"
 import Link from "next/link"
 import { Sidenav } from "@theme-ui/sidenav"
 
@@ -38,6 +40,8 @@ const mdComponents = {
     ),
 }
 
+//  sx={{width:"100%"}}
+
 export default ({ Component, pageProps }) => {
   return (
     <ThemeProvider components={mdComponents} theme={theme}>
@@ -52,9 +56,7 @@ export default ({ Component, pageProps }) => {
           <Component {...pageProps} />
         </Box>
       </Flex>
-      <Flex mx={3}>
-        <Footer />
-      </Flex>
+      <Footer />
     </ThemeProvider>
   )
 }
