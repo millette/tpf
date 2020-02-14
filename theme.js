@@ -1,6 +1,9 @@
 // npm
 import { merge } from "theme-ui"
-import { polaris as theme1 } from "@theme-ui/presets"
+import { future as theme1 } from "@theme-ui/presets"
+// import { system as theme1 } from "@theme-ui/presets"
+// import { tosh as theme1 } from "@theme-ui/presets"
+// import { polaris as theme1 } from "@theme-ui/presets"
 
 const theme = merge(theme1, {
   useColorSchemeMediaQuery: true,
