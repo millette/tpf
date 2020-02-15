@@ -1861,6 +1861,7 @@ var makeShortcode = function makeShortcode(name) {
   };
 };
 
+var Pager = makeShortcode("Pager");
 var layoutProps = {};
 var MDXLayout = "wrapper";
 function MDXContent(_ref) {
@@ -1932,14 +1933,21 @@ function MDXContent(_ref) {
       lineNumber: 29
     },
     __self: this
-  }, "License art libre")));
+  }, "License art libre")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(Pager, {
+    mdxType: "Pager",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }));
 }
 ;
 MDXContent.isMDXComponent = true;
 
 /***/ }),
 
-/***/ 6:
+/***/ 3:
 /*!**********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fpeinture-gimp&absolutePagePath=%2Fhome%2Fmillette%2Ftpf%2Fpages%2Fpeinture-gimp.mdx ***!
   \**********************************************************************************************************************************/
@@ -1962,5 +1970,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[6,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=peinture-gimp.js.map

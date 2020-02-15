@@ -1861,6 +1861,7 @@ var makeShortcode = function makeShortcode(name) {
   };
 };
 
+var Pager = makeShortcode("Pager");
 var layoutProps = {};
 var MDXLayout = "wrapper";
 function MDXContent(_ref) {
@@ -1959,14 +1960,21 @@ function MDXContent(_ref) {
       lineNumber: 33
     },
     __self: this
-  }, "Acrylique")));
+  }, "Acrylique")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(Pager, {
+    mdxType: "Pager",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }));
 }
 ;
 MDXContent.isMDXComponent = true;
 
 /***/ }),
 
-/***/ 2:
+/***/ 5:
 /*!************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fpatineur&absolutePagePath=%2Fhome%2Fmillette%2Ftpf%2Fpages%2Fpatineur.mdx ***!
   \************************************************************************************************************************/
@@ -1989,5 +1997,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[5,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=patineur.js.map
