@@ -12,6 +12,7 @@ import theme from "../theme.js"
 import Cols from "../components/cols.js"
 import Links from "../components/links.mdx"
 import Footer from "../components/footer.mdx"
+import Pager from "../components/pager.js"
 
 /*
 const wrapper = ({ children, ...props }) => (
@@ -25,11 +26,14 @@ const wrapper = ({ children, ...props }) => (
 
 const mdComponents = {
   // wrapper,
+  Pager,
   Flex,
   Box,
   Button,
-  a: ({ href, children }) =>
-    href.indexOf("://") === -1 ? (
+  a: ({ href, children }) => {
+    // console.log("HREF-PAGER", href)
+
+    return href.indexOf("://") === -1 ? (
       <Link href={href} as={process.env.BACKEND_URL + href} passHref>
         <Styled.a>{children}</Styled.a>
       </Link>
@@ -37,7 +41,8 @@ const mdComponents = {
       <Styled.a target="_blank" rel="noopener noreferrer" href={href}>
         <sup>⧉</sup>&nbsp;{children}
       </Styled.a>
-    ),
+    )
+  },
 }
 
 //  sx={{width:"100%"}}
