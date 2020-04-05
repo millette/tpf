@@ -20,7 +20,7 @@
     "@theme-ui/presets": "^0.3.0",
     "@theme-ui/sidenav": "^0.3.1",
     "next": "^9.3.4",
-    "next-optimized-images": "^2.5.4",
+    "next-optimized-images": "^2.5.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "responsive-loader": "^1.2.0",
